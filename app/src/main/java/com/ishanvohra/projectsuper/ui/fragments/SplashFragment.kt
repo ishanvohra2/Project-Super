@@ -41,6 +41,7 @@ class SplashFragment : Fragment() {
                 }
 
                 override fun onAnimationEnd(p0: Animator?) {
+                    findNavController().navigate(R.id.homeFragment)
                 }
 
                 override fun onAnimationCancel(p0: Animator?) {
