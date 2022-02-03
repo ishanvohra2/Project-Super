@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/ProjectSuper/app/src/main/res/drawable/ic_baseline_arrow_drop_down_24.xml" value="0.1945" />
+        <entry key="..\:/AndroidStudioProjects/ProjectSuper/app/src/main/res/layout/fragment_character_details.xml" value="0.21275309761257177" />
+        <entry key="..\:/AndroidStudioProjects/ProjectSuper/app/src/main/res/layout/fragment_home.xml" value="0.2970464135021097" />
+        <entry key="..\:/AndroidStudioProjects/ProjectSuper/app/src/main/res/layout/item_comic_book.xml" value="0.30085470085470084" />
+        <entry key="..\:/AndroidStudioProjects/ProjectSuper/app/src/main/res/layout/item_super_hero_search.xml" value="0.30085470085470084" />
         <entry key="app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1825" />
         <entry key="app/src/main/res/drawable/search_box.xml" value="0.1825" />
         <entry key="app/src/main/res/drawable/search_item_background.xml" value="0.1825" />
@@ -13,7 +18,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

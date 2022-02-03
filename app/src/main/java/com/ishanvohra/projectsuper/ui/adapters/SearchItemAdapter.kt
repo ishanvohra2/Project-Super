@@ -11,8 +11,13 @@ import com.ishanvohra.projectsuper.models.SearchResult.SearchResultResponse
 
 class SearchItemAdapter(
     private val context: Context,
-    val dataSet: ArrayList<SearchResultResponse.Result>
+    val dataSet: ArrayList<SearchResultResponse.Result>,
+    private val listener: SearchResultActionListener
 ) : RecyclerView.Adapter<SearchItemAdapter.MyViewHolder>() {
+
+    interface SearchResultActionListener{
+        fun onSearchResultClicked(position: Int, itemView: View, item: SearchResultResponse.Result)
+    }
 
     inner class MyViewHolder(val binding: ItemSuperHeroSearchBinding) : RecyclerView.ViewHolder(binding.root)
 
@@ -47,6 +52,10 @@ class SearchItemAdapter(
                 }
                 else
                     binding.seriesTextview.visibility = View.GONE
+
+                binding.root.setOnClickListener {
+                    listener.onSearchResultClicked(position, binding.root, this)
+                }
 
             }
         }

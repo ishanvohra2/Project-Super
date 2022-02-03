@@ -10,15 +10,17 @@ import android.view.ViewGroup
 import androidx.appcompat.widget.SearchView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.ishanvohra.projectsuper.R
 import com.ishanvohra.projectsuper.databinding.FragmentHomeBinding
+import com.ishanvohra.projectsuper.models.SearchResult.SearchResultResponse
 import com.ishanvohra.projectsuper.ui.adapters.SearchItemAdapter
 import com.ishanvohra.projectsuper.util.Util
 import java.math.BigInteger
 import java.security.MessageDigest
 
-class HomeFragment : Fragment() {
+class HomeFragment : Fragment(), SearchItemAdapter.SearchResultActionListener {
 
     private var _binding: FragmentHomeBinding? = null
     private val binding get() = _binding!!
@@ -119,7 +121,7 @@ class HomeFragment : Fragment() {
             //init recycler view
             binding.searchResultRecyclerView.layoutManager = LinearLayoutManager(requireContext())
 
-            searchItemAdapter = SearchItemAdapter(requireContext(), ArrayList())
+            searchItemAdapter = SearchItemAdapter(requireContext(), ArrayList(), this)
             binding.searchResultRecyclerView.adapter = searchItemAdapter
 
             //attaching an observer -> updating the value of dataSet in searchItemAdapter
@@ -138,5 +140,14 @@ class HomeFragment : Fragment() {
         catch (e: Exception){
             e.printStackTrace()
         }
+    }
+
+    //override method from SearchResultActionListener in SearchItemAdapter
+    override fun onSearchResultClicked(
+        position: Int,
+        itemView: View,
+        item: SearchResultResponse.Result
+    ) {
+        findNavController().navigate(R.id.characterDetailsFragment)
     }
 }
