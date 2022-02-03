@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1825" />
         <entry key="app/src/main/res/drawable/search_box.xml" value="0.1825" />
+        <entry key="app/src/main/res/drawable/search_item_background.xml" value="0.1825" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2065972222222222" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.2065972222222222" />
         <entry key="app/src/main/res/layout/fragment_splash.xml" value="0.20446735395189003" />

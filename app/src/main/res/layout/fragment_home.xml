@@ -11,15 +11,19 @@
         android:src="@drawable/main_fragment_bg"
         android:scaleType="centerCrop"/>
 
-    <androidx.appcompat.widget.SearchView
-        android:id="@+id/search_view"
+    <EditText
+        android:id="@+id/edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/search_box"
-        app:searchIcon="@drawable/ic_baseline_search_24"
+        android:drawableStart="@drawable/ic_baseline_search_24"
         android:layout_marginStart="12dp"
         android:layout_marginEnd="12dp"
         android:layout_marginTop="20dp"
+        android:padding="6dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/lexend_exa"
+        android:lines="1"
         app:layout_constraintTop_toTopOf="parent"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -28,7 +32,7 @@
         android:layout_height="0dp"
         android:layout_marginTop="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/search_view">
+        app:layout_constraintTop_toBottomOf="@id/edit_text">
 
         <TextView
             android:id="@+id/title_textview"
@@ -60,6 +64,6 @@
         android:alpha="0"
         tools:listitem="@layout/item_super_hero_search"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/search_view"/>
+        app:layout_constraintTop_toBottomOf="@id/edit_text"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
