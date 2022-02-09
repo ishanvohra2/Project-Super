@@ -90,7 +90,7 @@ data class ComicCollectionResponse(
     )
 
     data class Price(
-        val price: Int,
+        val price: Float,
         val type: String
     )
 

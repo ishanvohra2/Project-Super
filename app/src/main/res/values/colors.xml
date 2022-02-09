@@ -10,6 +10,6 @@
     <color name="red">#ff4d4d</color>
     <color name="red_transparent">#99ff4d4d</color>
     <color name="grey_200">#f2f2f2</color>
-    <color name="grey_50">#99f2f2f2</color>
+    <color name="grey_50">#b3f2f2f2</color>
     <color name="yellow">#ffffb3</color>
 </resources>

@@ -148,6 +148,11 @@ class HomeFragment : Fragment(), SearchItemAdapter.SearchResultActionListener {
         itemView: View,
         item: SearchResultResponse.Result
     ) {
-        findNavController().navigate(R.id.characterDetailsFragment)
+        val bundle = Bundle()
+        bundle.putString("comic_collection_url", item.comics.collectionURI)
+        bundle.putString("series_collection_url", item.series.collectionURI)
+        bundle.putString("name", item.name)
+        bundle.putString("image_url", item.thumbnail.path + "/portrait_xlarge." + item.thumbnail.extension)
+        findNavController().navigate(R.id.characterDetailsFragment, bundle)
     }
 }
