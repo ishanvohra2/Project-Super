@@ -17,6 +17,8 @@ You can find a guide on how to do this here: Setting up Android Studio.
 5. Let Android Studio import the project.
 6. Build the application in your device by clicking run button.
 
+Note: Login to the Marvel Developer portal and add public and private api keys to your strings.xml file. 
+
 ## Branch Policy
 We have the following branches:
 
