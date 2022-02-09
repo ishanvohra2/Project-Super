@@ -40,3 +40,4 @@ Following are the libraries being used :
 5. [Okhttp](https://square.github.io/okhttp/)
 6. [Coroutines](https://developer.android.com/kotlin/coroutines)
 7. [Jetpack Navigation Component](https://developer.android.com/guide/navigation)
+8. [Marvel API](https://developer.marvel.com/)
