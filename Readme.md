@@ -5,7 +5,7 @@ and comic books.
 
 ![](https://github.com/ishanvohra2/Project-Super/blob/master/iron-man.png?raw=true)
 
-[Demo Video](https://github.com/ishanvohra2/Project-Super/blob/master/video.mp4?raw=true)
+[Demo Video](https://github.com/ishanvohra2/Project-Super/blob/master/video.mp4?raw=true) I am working on getting the application to the play store. You can download the apk from [this link](https://drive.google.com/file/d/1IZT48AcjIEmtz0gXAa8hZMSZUb-WMzKD/view?usp=sharing).
 
 ## Development Setup
 Before you begin, you should have already downloaded the Android Studio SDK and set it up correctly.
