@@ -5,7 +5,7 @@ and comic books.
 
 ![](https://github.com/ishanvohra2/Project-Super/blob/master/iron-man.png?raw=true)
 
-[Demo Video](https://github.com/ishanvohra2/Project-Super/blob/master/video.mp4)
+[Demo Video](https://github.com/ishanvohra2/Project-Super/blob/master/video.mp4?raw=true)
 
 ## Development Setup
 Before you begin, you should have already downloaded the Android Studio SDK and set it up correctly.
