@@ -3,9 +3,11 @@
 Project super is an android application which uses Marvel's APIs to fetch details about our favorite characters
 and comic books. 
 
-![](https://github.com/ishanvohra2/Project-Super/blob/master/iron-man.png?raw=true)
+![](https://github.com/ishanvohra2/Project-Super/blob/master/iron-man.png?raw=true) 
 
-[Demo Video](https://github.com/ishanvohra2/Project-Super/blob/master/video.mp4)
+I am working on getting the application to the play store. You can download the apk from [this link](https://drive.google.com/file/d/1IZT48AcjIEmtz0gXAa8hZMSZUb-WMzKD/view?usp=sharing).
+
+[Demo Video](https://github.com/ishanvohra2/Project-Super/blob/master/video.mp4?raw=true) 
 
 ## Development Setup
 Before you begin, you should have already downloaded the Android Studio SDK and set it up correctly.
